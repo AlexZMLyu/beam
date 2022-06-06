@@ -52,6 +52,8 @@ public class BigQueryIOStorageWriteIT {
     AT_LEAST_ONCE
   };
 
+  
+
   private String project;
   private static final String DATASET_ID = "big_query_storage";
   private static final String TABLE_PREFIX = "storage_write_";
